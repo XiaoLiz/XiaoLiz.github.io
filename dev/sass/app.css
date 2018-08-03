@@ -26,7 +26,7 @@ time, mark, audio, video, iframe, main, header, footer {
   outline: 0 none; }
 
 body {
-  font-family: -apple-system, Verdana, "PingFang SC", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, \\5B8B\4F53, WenQuanYi Zen Hei, WenQuanYi Micro Hei, "sans-serif";
   color: #656565;
   -webkit-font-smoothing: antialiased;
   background-color: #F7F8FA; }
@@ -63,6 +63,12 @@ a {
   background-color: transparent;
   transition: all .6s;
   z-index: 1000; }
+  .g-header .navbar-brand {
+    font-weight: 800;
+    color: #fff;
+    height: 56px;
+    line-height: 25px;
+    padding: 0 15px; }
   .g-header .g-logo {
     float: left;
     margin-left: 2%;
@@ -107,7 +113,8 @@ a {
         letter-spacing: 1px;
         color: #fff;
         padding: 0 12px;
-        opacity: .7; }
+        opacity: .7;
+        font-weight: 800; }
         .g-header .g-nav > ul > li > a:hover {
           opacity: 1; }
   .g-header .nav-default a:hover {
@@ -138,17 +145,14 @@ a {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
   .home-banner h2 {
     padding-top: 190px;
-    line-height: 38px;
-    font-size: 42px;
-    font-family: 'Arial', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+    font-size: 80px;
     font-weight: bold;
     letter-spacing: 2px;
-    line-height: 52px; }
+    line-height: 1; }
   .home-banner h3 {
-    font-size: 20px;
     font-weight: normal;
-    letter-spacing: 10px;
-    margin-top: 8px; }
+    font-size: 18px;
+    margin-top: 10px; }
   .home-banner .header-img {
     display: block;
     position: absolute;
@@ -215,7 +219,7 @@ a {
     .article-list .article-item .post-preview {
       position: relative; }
       .article-list .article-item .post-preview .post-title {
-        font-family: "Merriweather", -apple-system, Verdana, "PingFang SC", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+        font-family: "Merriweather", PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, \\5B8B\4F53, WenQuanYi Zen Hei, WenQuanYi Micro Hei, "sans-serif";
         color: #4E4E4E;
         font-size: 24px;
         line-height: 32px; }
@@ -228,7 +232,7 @@ a {
       .article-list .article-item .post-preview .post-excerpt {
         margin-top: 8px;
         font-size: 16px;
-        font-family: "Merriweather-Light", -apple-system, Verdana, "PingFang SC", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+        font-family: "Merriweather-Light", PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, \\5B8B\4F53, WenQuanYi Zen Hei, WenQuanYi Micro Hei, "sans-serif";
         line-height: 26px;
         word-break: break-all; }
     .article-list .article-item .post-meta {
@@ -328,7 +332,7 @@ a {
   padding: 0 8px;
   font-size: 14px;
   color: #A6ABB2;
-  font-family: -apple-system, Verdana, "PingFang SC", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, \\5B8B\4F53, WenQuanYi Zen Hei, WenQuanYi Micro Hei, "sans-serif";
   line-height: 22px;
   box-sizing: border-box;
   box-shadow: 0 0 .6px #D5DAE1;
@@ -469,7 +473,6 @@ a {
 .g-footer {
   min-height: 40px;
   padding: 20px 0;
-  border-top: 1px solid #E7EAF1;
   text-align: center; }
   .g-footer section {
     font-size: 14px;
@@ -507,7 +510,7 @@ a {
       padding: 0 8px;
       font-size: 14px;
       color: #A6ABB2;
-      font-family: -apple-system, Verdana, "PingFang SC", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+      font-family: PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, \\5B8B\4F53, WenQuanYi Zen Hei, WenQuanYi Micro Hei, "sans-serif";
       line-height: 22px;
       box-sizing: border-box;
       box-shadow: 0 0 .6px #D5DAE1;
@@ -620,13 +623,14 @@ a {
       bottom: 0; }
 
 .markdown-body {
-  font-family: "Merriweather-Light", -apple-system, Verdana, "PingFang SC", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Merriweather-Light", PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, \\5B8B\4F53, WenQuanYi Zen Hei, WenQuanYi Micro Hei, "sans-serif";
   width: 720px;
   box-sizing: border-box;
   padding: 0 0 32px; }
   .markdown-body .highlight {
     margin: 0 0 16px;
-    overflow: scroll; }
+    overflow: scroll;
+    white-space: normal; }
   .markdown-body img {
     transition: .3s; }
   .markdown-body ul li p, .markdown-body ol li p {
@@ -660,19 +664,12 @@ a {
 .read-next-item {
   position: relative;
   flex: 1;
-  height: 260px;
   padding: 0;
   top: 0;
-  background-color: #AAB4CA;
-  border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 2px 10px rgba(109, 127, 144, 0.5);
-  transition: box-shadow .4s ease, top .3s ease; }
+  border-bottom: 1px solid #e6e6e6; }
   .read-next-item:first-child {
     margin-right: 10px; }
-  .read-next-item:hover {
-    top: -5px;
-    box-shadow: 0 8px 20px rgba(52, 61, 70, 0.3); }
   .read-next-item .read-next-link {
     position: absolute;
     top: 0;
@@ -684,10 +681,10 @@ a {
     display: none;
     position: relative;
     width: 80%;
-    margin-left: 10%;
-    margin-top: 45px;
-    color: #fff;
-    z-index: 2; }
+    z-index: 2;
+    /* add css*/
+    color: #3e3e3e;
+    margin: 20px 6% 20px 0; }
     .read-next-item section span {
       font-size: 22px;
       font-weight: bold;
@@ -703,7 +700,6 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.22);
     z-index: 1;
     transition: .3s linear; }
   .read-next-item img {
@@ -939,13 +935,10 @@ a {
       margin-right: 0; }
     .read-next-item:last-child {
       margin-bottom: 0; }
-    .read-next-item:hover {
-      top: 0;
-      box-shadow: none; }
     .read-next-item section {
       width: 90%;
-      margin-left: 5%;
-      margin-top: 45px; }
+      margin-left: 0;
+      margin-top: 20px; }
   .g-banner {
     padding: 0 20px; }
   .home-banner h3, .tags-banner h3 {
@@ -967,9 +960,9 @@ a {
 
 @media screen and (max-width: 500px) {
   .home-banner {
-    height: 400px; }
+    height: 300px; }
     .home-banner h2 {
-      padding-top: 180px;
+      padding-top: 100px;
       font-size: 28px;
       line-height: 48px; }
     .home-banner h3 {

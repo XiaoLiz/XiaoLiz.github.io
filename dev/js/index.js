@@ -100,9 +100,9 @@ $(document).ready(function(){
      * The Post Navigator
      */
     $('.read-next-item section').each(function() {
-        var n = $(this).height();
-        var rn = $('.read-next-item').height();
-        $(this).css('margin-top', (rn - n) / 2 + 'px');
+        // var n = $(this).height();
+        // var rn = $('.read-next-item').height();
+        // $(this).css('margin-top', (rn - n) / 2 + 'px');
         $(this).fadeIn();
     });
 

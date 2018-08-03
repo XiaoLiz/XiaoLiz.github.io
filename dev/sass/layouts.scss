@@ -113,14 +113,15 @@
         &:last-child {
             margin-bottom: 0;
         }
-        &:hover {
-            top: 0;
-            box-shadow: none;
-        }
+        // &:hover {
+        //     top: 0;
+        //     box-shadow: none;
+        // }
         section {
             width: 90%;
-            margin-left: 5%;
-            margin-top: 45px;
+            margin-left: 0;
+            // margin-top: 45px;
+            margin-top: 20px;
         }
     }
 
@@ -159,9 +160,11 @@
 
 @media screen and (max-width: 500px) {
     .home-banner {
-        height: 400px;
+        // height: 400px;
+        height: 300px;
         h2 {
-            padding-top: 180px;
+            // padding-top: 180px;
+            padding-top: 100px;
             font-size: 28px;
             line-height: 48px;
         }
