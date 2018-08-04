@@ -1,10 +1,9 @@
 ---
 layout: post
 title: '理解Nginx服务器及其路径匹配算法'
-date: 2018-07-28
+date: 2018-08-03
 author: lijing
-# cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
-tags: nginx
+tags: Nginx
 ---
 
 

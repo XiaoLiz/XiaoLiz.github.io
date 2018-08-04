@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Vue-router History 模式渲染配置'
+title: 'Vue Router History 模式渲染配置'
 date: 2018-07-28
-author: LIYI
+author: liyi
 tags: Vue history vue-router
 ---
 
@@ -46,12 +46,11 @@ const router = new VueRouter({
 **注意：如果Web server 根目录不在dist下(或者其他目录下面), base：vaule 需要修改为基于服务器根目录下  `/xxx/` 来指定 vue Spa入口文件**
 
 
-
 ## Vue Router 服务端配置 案例:
 
 #### Nginx配置分为两种情况:
 
-1、// 发布文件在服务器根目录如下所示：
+1、发布文件在服务器根目录如下所示：
 ``` code
 location / {
     root  /；
@@ -61,7 +60,7 @@ location / {
 .....
 ``` 
 
-2、// 发布文件在不在服务器根目录，举个例子，比如服务器根目录在 `/public/` ,项目发布文件在 build 目录下
+2、发布文件在不在服务器根目录，举个例子，比如服务器根目录在 `/public/` ,项目发布文件在 build 目录下
 
 ```	html
 # 服务器目录结构
