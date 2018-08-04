@@ -132,11 +132,13 @@ DocumentRoot "/www/public/"（设置apache默认指向目录）
 </IfModule>
 ```
 
-
-### 备注：
+#### 备注：
 以上举例服务器根目录都是基于 `/public` 演示, 开发中依据实际情况替换对应目录即可
 
 
+### 参考资料：
+
+[Vue-Router官方文档](https://router.vuejs.org/zh/guide/essentials/history-mode.html)
 
 
 
