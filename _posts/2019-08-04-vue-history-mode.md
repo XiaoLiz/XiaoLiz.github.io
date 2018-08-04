@@ -3,7 +3,7 @@ layout: post
 title: 'Vue Router History 模式渲染配置'
 date: 2018-08-04
 author: liyi
-tags: Vue history vue-router
+tags: vue-history
 ---
 
 

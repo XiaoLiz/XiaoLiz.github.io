@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: 'LIYI的博客'
 description: ''
-keyword: 'LIYI的博客, javascript, vue, vuejs, 小程序, 前端, 日志，前端开发, 前端博客, 设计'
+keyword: 'LIYI的博客, javascript, vue, vuejs, 小程序, 前端, 日志，前端开发, 前端博客, 设计, 旅行'
 url: 'https://smme.cc'
 
 # if you don't need baseurl, you should leave this value blank.
@@ -75,7 +75,7 @@ kramdown:
 RSS: false
 
 # Permalink
-permalink: /:year/:month/:day/:title.html
+permalink: /:categories/:year/:month/:day/:title.html
 
 # Plugins
 plugins: [jekyll-paginate]

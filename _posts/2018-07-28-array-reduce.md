@@ -4,7 +4,7 @@ title: ' Array.prototype.reduce'
 date: 2018-07-28
 author: 
 # cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
-tags: reduce Array
+tags: reduce 
 ---
 
 
