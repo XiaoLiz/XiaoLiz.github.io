@@ -232,7 +232,8 @@ a {
         margin-top: 8px;
         font-size: 16px;
         line-height: 26px;
-        word-break: break-all; }
+        word-break: break-word;
+        text-align: justify; }
     .article-list .article-item .post-meta {
       height: 22px;
       margin-top: 16px; }
