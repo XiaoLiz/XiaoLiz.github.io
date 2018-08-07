@@ -31,11 +31,19 @@ nightMode: false
 
 # Comments 评论功能
 comments:
-  disqus: false
-  disqus_url: 'https://smme.disqus.com/embed.js'
+  #disqus: false
+  #disqus_url: 'https://smme.disqus.com/embed.js'
+
+  gitalk: true
+  clientID: 'f109dc89ef8f64646f93'    #上面生成的往这里怼
+  clientSecret: 'd6c55f3d642d19223497df59c745609be3d879b6'   #同上
+  repo: 'XiaoLiz.github.io'    #仓库名称
+  owner: 'XiaoLiz'    #github用户名
+  admin: 'XiaoLiz'
+  distractionFreeMode: true
 
 # MathJax 公式支持 by Ray-Eldath
-mathjax: true
+mathjax: true,
 
 # Share
 social-share: true
