@@ -856,6 +856,9 @@ a {
   .night-mode .token.keyword {
     color: #61BDCF; }
 
+.gt-container .gt-btn {
+  background-color: #007aff; }
+
 @media screen and (min-width: 1920px) {
   .home-banner {
     height: 600px; }
