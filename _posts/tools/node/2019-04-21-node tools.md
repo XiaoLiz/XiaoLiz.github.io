@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Node nvm & npm nrm 工具使用'
+title: 'Node nvm & npm nrm 工具介绍'
 date: 2019-04-21
 author: 易风
 cover: ''
