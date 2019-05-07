@@ -30,7 +30,7 @@ tags: nvm nrm 包管理 镜像源管理
 ### 安装 nvm
 
 ```code
-brew instal nvm
+brew install nvm
 ```
 
 查看版本是否安装成功
