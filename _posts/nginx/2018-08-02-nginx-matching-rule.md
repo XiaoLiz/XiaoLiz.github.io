@@ -2,7 +2,7 @@
 layout: post
 title: '理解Nginx服务器及其路径匹配算法'
 date: 2018-08-02
-author: 36kr_FE
+author: 
 tags: Nginx
 ---
 
